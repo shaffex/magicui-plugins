@@ -25,7 +25,7 @@ let package = Package(
             dependencies: [
                 .product(name: "MagicUi", package: "magicui-framework-beta")
             ],
-            path: "PluginWidgets",
+            path: "Plugins/PluginWidgets/PluginWidgets",
             exclude: [
                 "Info.plist",
                 "PluginWidgets.entitlements",
@@ -42,10 +42,9 @@ let package = Package(
                 "PluginWidgets",
                 .product(name: "MagicUi", package: "magicui-framework-beta")
             ],
-            path: "MyWidget",
+            path: "Plugins/PluginWidgets/MyWidget",
             exclude: [
                 "Info.plist",
-                "MyWidgetExtension.entitlements",
                 "TEST.xml"
             ],
             resources: [
