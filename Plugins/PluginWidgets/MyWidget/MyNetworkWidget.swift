@@ -63,10 +63,12 @@ struct NetworkWidgetProvider: AppIntentTimelineProvider {
 
 
 
-struct MyNetworkWidget: Widget {
+public struct MyNetworkWidget: Widget {
     let kind: String = "netwidget1"
 
-    var body: some WidgetConfiguration {
+    public init() {}
+    
+    public var body: some WidgetConfiguration {
         AppIntentConfiguration(kind: kind, intent: MyNetworkWidgetConfigurationAppIntent.self, provider: NetworkWidgetProvider()) { entry in
             MyNetworkWidgetEntryView(entry: entry, kind: kind)
                 .containerBackground(.fill.tertiary, for: .widget)
