@@ -1,0 +1,11 @@
+<body>
+    <navigationstack>
+    <list>
+        <button action="setWidget:id:widget1_small;file:janka.xml">setWidget:widget1_small</button>
+        <button action="setWidget:id:widget1_small;file:danka.xml">setWidget:widget1_medium</button>
+        
+        <button action="reloadAllTimelines">reloadAllTimelines</button>
+<!--        <button action="playAudio:resource:meow1.mp3">playAudio</button>-->
+    </list>
+    </navigationstack>
+</body>

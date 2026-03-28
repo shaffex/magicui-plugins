@@ -1,0 +1,10 @@
+<body>
+
+    <list>
+        <button action="setWidget:id:widget1_small;file:janka.xml">setWidget:widget1_small</button>
+        <button action="setWidget:id:widget1_medium;file:danka.xml">setWidget:widget1_medium</button>
+        
+        <button action="reloadAllTimelines">reloadAllTimelines</button>
+    </list>
+    
+</body>
