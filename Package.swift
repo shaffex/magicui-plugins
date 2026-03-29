@@ -1,10 +1,10 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 import PackageDescription
 
 let package = Package(
     name: "PluginWidgets",
     platforms: [
-        .iOS(.v17)
+        .iOS(.v18)
     ],
     products: [
         .library(
@@ -34,21 +34,6 @@ let package = Package(
             resources: [
                 .process("Assets.xcassets"),
                 .process("Screens")
-            ]
-        ),
-        .target(
-            name: "MyWidget",
-            dependencies: [
-                "PluginWidgets",
-                .product(name: "MagicUi", package: "magicui-framework-beta")
-            ],
-            path: "Plugins/PluginWidgets/MyWidget",
-            exclude: [
-                "Info.plist",
-                "TEST.xml"
-            ],
-            resources: [
-                .process("Assets.xcassets")
             ]
         )
     ]
