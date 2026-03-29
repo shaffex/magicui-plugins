@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "PluginWidgets",
     platforms: [
-        .iOS(.v18)
+        .iOS("18.0")
     ],
     products: [
         .library(
