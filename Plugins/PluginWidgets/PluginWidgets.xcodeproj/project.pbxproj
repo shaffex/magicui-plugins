@@ -53,6 +53,8 @@
 			membershipExceptions = (
 				Info.plist,
 				NetworkWidget/MyNetworkWidget.swift,
+				NetworkWidget/MyWidgetEntryView.swift,
+				NetworkWidget/NetworkService.swift,
 			);
 			target = 2F4A87222F6401A10088B0BF /* PluginWidgets */;
 		};
@@ -67,6 +69,8 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				NetworkWidget/MyNetworkWidget.swift,
+				NetworkWidget/MyWidgetEntryView.swift,
+				NetworkWidget/NetworkService.swift,
 				SxWidget/PluginWidgets.swift,
 				SxWidget/SxWidgetSharedCode.swift,
 				SxWidget/WidgetConstants.swift,
