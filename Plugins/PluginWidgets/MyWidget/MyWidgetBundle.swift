@@ -15,9 +15,9 @@ struct MyWidgetBundle: WidgetBundle {
     }
     
     var body: some Widget {
-        MyWidget()
+        //MyWidget()
         MyNetworkWidget()
-        MyWidgetControl()
-        MyWidgetLiveActivity()
+        //MyWidgetControl()
+        //MyWidgetLiveActivity()
     }
 }
