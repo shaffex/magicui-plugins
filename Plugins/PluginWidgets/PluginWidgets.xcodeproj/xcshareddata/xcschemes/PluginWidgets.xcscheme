@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2F4A87222F6401A10088B0BF"
-               BuildableName = "PluginWidgets.app"
+               BuildableName = "PluginWidgets.framework"
                BlueprintName = "PluginWidgets"
                ReferencedContainer = "container:PluginWidgets.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2F4A87222F6401A10088B0BF"
-            BuildableName = "PluginWidgets.app"
+            BuildableName = "PluginWidgets.framework"
             BlueprintName = "PluginWidgets"
             ReferencedContainer = "container:PluginWidgets.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2F4A87222F6401A10088B0BF"
-            BuildableName = "PluginWidgets.app"
+            BuildableName = "PluginWidgets.framework"
             BlueprintName = "PluginWidgets"
             ReferencedContainer = "container:PluginWidgets.xcodeproj">
          </BuildableReference>
